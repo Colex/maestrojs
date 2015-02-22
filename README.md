@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Colex/maestrojs.svg?branch=master)](https://travis-ci.org/Colex/maestrojs)
+
 # MaestroJs
 __Maestro.js__ is a library that helps dynamically orchestrate different services using __Redis__.
 Services do not need to know any information about the service they depend on _(only the name)_, this library will be responsible to resolve the options necessary to connect to all services and keep the service updated with the latest options.
@@ -108,6 +110,9 @@ maestro.unregister(function() {
   console.log("Service unregistered")
 });
 ```
+
+## Redis Configuration
+It is __important__ to notice that we require Redis to be configured to notify Maestro in case of key changes. You may set ``notify-keyspace-events "AKE"`` in __redis.conf__ or start redis as ``./redis-server --notify-keyspace-events AKE``
 
 ## TODO
 - Support Redis Sentinel (to remove SPoF)
