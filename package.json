@@ -19,6 +19,9 @@
     "discovery",
     "microservice"
   ],
+  "scripts": {
+    "test": "mocha test/"
+  },
   "main": "lib/index.js",
   "dependencies": {
     "redis": "0.12.1",
