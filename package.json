@@ -1,7 +1,7 @@
 {
   "name": "maestrojs",
-  "version": "0.0.3",
-  "description": "Maestrojs is an implementation of automatic service orchestration relying on Redis for service discovery",
+  "version": "0.1.0",
+  "description": "Maestrojs is a library for service orchestration relying on Redis for service discovery",
   "author": "Alex Correia dos Santos <alexcsantos1991@gmail.com>",
   "dependencies": {
     "redis": "0.12.1",
