@@ -47,6 +47,11 @@ maestro.start(function() {
 });
 ```
 
+## Install
+```
+npm install maestrojs
+```
+
 ## API
 ### Maestro.use(_serviceName_, _setupCallback_)
 Declare a dependency and a callback for setting up this dependency. The callback is called everytime that service is updated. _(in the case of a cache cluster, if a new cache node registers, the setup callback will be run again)_
