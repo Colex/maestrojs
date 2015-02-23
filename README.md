@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Colex/maestrojs.svg?branch=master)](https://travis-ci.org/Colex/maestrojs)
 
-# MaestroJs
+# Maestro.js
 __Maestro.js__ is a library that helps dynamically orchestrate different services using __Redis__.
 Services do not need to know any information about the service they depend on _(only the name)_, this library will be responsible to resolve the options necessary to connect to all services and keep the service updated with the latest options.
 
