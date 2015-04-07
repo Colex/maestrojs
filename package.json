@@ -5,7 +5,11 @@
   "author": {
     "name": "Alex Correia dos Santos",
     "email": "alexcsantos1991@gmail.com"
-    },
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/Colex/maestrojs.git"
+  },
   "licenses": [
     {
       "type": "GNU GPL v2.0",
