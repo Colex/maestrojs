@@ -1,14 +1,14 @@
 {
   "name": "maestrojs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Maestrojs is a library for service orchestration relying on Redis for service discovery",
   "author": {
     "name": "Alex Correia dos Santos",
     "email": "alexcsantos1991@gmail.com"
   },
-  "repository": { 
-    "type" : "git", 
-    "url" : "https://github.com/Colex/maestrojs.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Colex/maestrojs.git"
   },
   "licenses": [
     {
